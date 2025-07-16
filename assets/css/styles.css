@@ -235,3 +235,33 @@
 }
 
 /* blog-entries */
+ /* <!-- Talk to us --> */
+ .talk-to-us{
+    background: #F0F0FC;
+    padding: 100px 0;
+ }
+ .talk-to-us .inner-content .inner-title {
+    font-size: 20px;
+
+ }
+ .talk-to-us .inner-form input, .talk-to-us .inner-form textarea{
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+ }
+ .talk-to-us .inner-form textarea{
+    height: 150px;
+ }
+ .talk-to-us .inner-form input{
+    height: 50px ;
+ }
+ .talk-to-us .inner-form input:focus, .talk-to-us .inner-form textarea:focus{
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+ }
+  /* <!-- Talk to us --> */
