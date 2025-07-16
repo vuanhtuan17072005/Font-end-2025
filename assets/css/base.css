@@ -5,12 +5,16 @@
     --color-text : #1e1e1e;
     --font : "Raleway", sans-serif;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: var(--font);
     box-sizing: border-box;
     color: var(--color-text);
     line-height: 1.6;
     margin: 0;
+    overflow-x:hidden ;
 }
 a{
     color: var(--color-text);
